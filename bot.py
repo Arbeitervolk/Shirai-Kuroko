@@ -37,6 +37,8 @@ def echo(update: Update, context: CallbackContext) -> None:
         update.message.reply_text('风纪委员第3/177活动支部,白井黑子报道！')
     elif "Klaus" in update.message.text:
         update.message.reply_text('Klaus 赛高！')
+    elif "charlie" in update.message.text:
+        update.message.reply_text('charlie，老帅比了！')
     elif "吃饭" in update.message.text:
         update.message.reply_text('又想不好去哪吃饭了吗？')
     else:
